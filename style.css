@@ -1,0 +1,246 @@
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 150px;    /* Footer height */
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  font-family: 'Jost', sans-serif;
+  position: relative;
+}
+
+.navbar ul {
+  list-style-type: none;
+  height: 0%;
+  margin: 8px;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  border-bottom: thick solid #333;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  /*background-color: #ddd;*/
+  border-bottom: thick solid #ff6700;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  /*background-color: #999;*/
+  border-bottom: thick solid #ff6700;
+  color: white;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: green; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: lime; /* Add a dark-grey background on hover */
+}
+
+.main {
+  margin: 0px 16px 0px 16px;
+  padding: 0;
+}
+
+.maintext {
+  font-family: 'Jost', sans-serif;
+  position: relative;
+  margin: 0px;
+}
+
+.heading {
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+  position: relative;
+  margin: 0px;
+}
+
+.title {
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  margin: 16px;
+}
+
+.title a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+}
+
+.header-logo {
+  width: 150px;
+  display: block;
+  margin-top: 16px;
+    }
+
+.accent-bar {
+    background-color: #ff6700;
+    width: 100%;
+    height: 5px;
+}
+
+.divider-bar {
+    background-color: #ff6700;
+    width: 50px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.heading-bar {
+    background-color: #ff6700;
+    width: 50px;
+    height: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.divider {
+    background-color: #bbbbbb;
+    width: 100%;
+    height: 1px;
+}
+
+.top-banner {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+body {
+  margin: 0;
+}
+
+.centre {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.roman {
+  font-weight: normal;
+}
+
+.bottom-logo {
+  width: 10%;
+  min-width: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+@media (min-width: 880px) {
+    .footer { 
+      width: 100%
+      height: 200px;
+      margin: 0;
+    }
+
+  .bottom-logo {
+        width: 200px;
+        display: block;
+        margin-left: 16px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 880px) {
+    .footer {
+      width: 75%;  
+      height: 200px;
+      margin: 0;
+    }
+
+  .bottom-logo {
+        width: 10%;
+        min-width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    .footer-content a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.footer-content {
+    font-family:'Jost';
+    background-color: #333;
+    border-top: thick solid #ff6700;  
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    margin: 16px 0 0 0;
+    width: 100%;
+}
+
+.rest-of-footer {
+    flex-grow: 1;
+}
+
+.footer-notes {
+    margin-top: 0px;
+}
+
+.footer-notes p {
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.alegreya {font-family: 'Alegreya', serif;}
+
+.courier {font-family: 'Courier', serif;}
